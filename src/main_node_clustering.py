@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+Adapted from original implementation by yeonchang:
+https://github.com/yeonchang/ASiNE
+
+"""
 import os, sys, time, datetime, collections, pickle
 import argparse
 import json
