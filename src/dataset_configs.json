@@ -1,0 +1,82 @@
+{
+     "Bitcoin_Alpha": {
+        "noise_stddev": 4,
+        "clip_value":1,
+        "batch_size_gen": 128,
+        "batch_size_dis": 128,
+        "n_epochs_gen": 10,
+        "n_epochs_dis": 10,
+        "n_emb": 128,
+        "lr": 0.05,
+        "window_size": 3,
+        "n_sample_gen": 3,
+        "n_epochs": 1000
+    },
+
+    "Bitcoin_OTC": {
+        "noise_stddev": 3,
+        "clip_value":1,
+        "batch_size_gen": 128,
+        "batch_size_dis": 128,
+        "n_epochs_gen": 10,
+        "n_epochs_dis": 10,
+        "n_emb": 128,
+        "lr": 0.05,
+        "window_size": 3,
+        "n_sample_gen": 3,
+        "n_epochs": 1000
+    },
+
+      "wikirfa": {
+        "noise_stddev": 2,
+        "clip_value":1,
+        "batch_size_gen": 512,
+        "batch_size_dis": 512,
+        "n_epochs_gen": 15,
+        "n_epochs_dis": 15,
+        "n_emb": 128,
+        "lr": 0.05,
+        "window_size": 4,
+        "n_sample_gen": 3,
+        "n_epochs": 1000
+    },
+    "Epinions": {
+        "noise_stddev": 1.5,
+        "clip_value":1,
+        "batch_size_gen": 1024,
+        "batch_size_dis": 1024,
+        "n_epochs_gen": 20,
+        "n_epochs_dis": 20,
+        "n_emb": 128,
+        "lr": 0.01,
+        "window_size": 4,
+        "n_sample_gen": 3,
+        "n_epochs": 1000
+    },
+    "Slashdot": {
+        "noise_stddev": 2,
+        "clip_value":1,
+        "batch_size_gen": 512,
+        "batch_size_dis": 512,
+        "n_epochs_gen": 15,
+        "n_epochs_dis": 15,
+        "n_emb": 128,
+        "lr": 0.05,
+        "window_size": 3,
+        "n_sample_gen": 4,
+        "n_epochs": 1000
+    },
+      "Epinions_large": {
+        "noise_stddev": 3.0,
+        "clip_value":1,
+        "batch_size_gen": 128,
+        "batch_size_dis": 128,
+        "n_epochs_gen": 20,
+        "n_epochs_dis": 20,
+        "n_emb": 128,
+        "lr": 0.05,
+        "window_size": 3,
+        "n_sample_gen": 3,
+        "n_epochs": 1000
+    }
+}
