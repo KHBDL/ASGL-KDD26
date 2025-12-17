@@ -1,4 +1,7 @@
 # The codes and datasets of 'Adversarial Signed Graph Learning with Differential Privacy'
+### Manuscript are available in https://arxiv.org/abs/2512.00307
+
+
 ### Key Document Description
 1. dataset_configs.json:  The hyperparameters of each dataset
 2. main_edge_sign_prediction.py: Main code for edge sign prediction tasks
